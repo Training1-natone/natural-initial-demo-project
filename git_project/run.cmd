@@ -25,7 +25,7 @@ IF "%eclipseworkspace%"=="" (
 )
 
 IF "%buildfile%"=="" (
-  set buildfile=C:\Training\initial_demo_git\natural-initial-demo-project\git_project\Natural-Libraries\TESTLIB\build.xml
+  set buildfile=C:\Training\initial_demo_git\natural-initial-demo-project\git_project\build.xml
 )
 
 :: The Ant listener can be used when a Junit-like report format of the Testing output is required.

@@ -2,12 +2,20 @@
 <project default="default" name="Natural Unit Tests">
   <target name="init">
     <property name="broker.environmentID" value="local Natural runtime" />
+    <property name="test.dir" value="C:/Training/initial_demo_git/natural-initial-demo-project/git_project" />
     <property name="NaturalTestingJunitLogger.file" value="log.xml" />
   </target>
   <target depends="init" name="default">
     <!-- Change logtests to "true" if you want test history to be saved -->
     <testsuite failureProperty="is.unit.test.failure" haltOnFailure="false" logtests="false" name="tests" setProjectSteplibs="true">
       <connection EnvironmentName="${broker.environmentID}" />
+      <!-- Run all the available unit tests from a folder -->
+      <fileset dir="${test.dir}">
+        <include name="**/*.nattst" />
+        <include name="**/*.bsrvtst" />
+        <include name="**/*.exttst" />
+        <include name="/**/*.seqtst" />
+      </fileset>
       <!-- Validators (See Eclipse online help <!!!TOPIC!!!> for further details)
 	   BooleanValidator
 	   ByteValidator
