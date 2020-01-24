@@ -1,0 +1,13 @@
+<UnitTestHistoryRoot id="1">
+  <children id="2">
+    <FileBasedUnitTestHistoryItem id="3">
+      <testName>SUBPRO.nattst</testName>
+      <state id="4" status="PASSED"/>
+      <startTimeStamp id="5">2020-01-24 15:13:08.474 UTC</startTimeStamp>
+      <endTimeStamp id="6">2020-01-24 15:13:09.489 UTC</endTimeStamp>
+      <connection>local Natural runtime</connection>
+      <userID>DAEITRAIN43138$</userID>
+      <path>C:\Training\initial_demo_git\natural-initial-demo-project\git_project\Testing-Suites\SUBPRO.nattst</path>
+    </FileBasedUnitTestHistoryItem>
+  </children>
+</UnitTestHistoryRoot>
